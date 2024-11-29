@@ -1,0 +1,19 @@
+/* Estilo da cabeça do robô */
+#head {
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 75px; /* Metade da largura/altura */
+}
+
+/* Estilo da lente */
+#lens {
+    background-color: #007;
+    border-radius: 50%;
+}
+
+/* Estilo do corpo */
+#body {
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 50%;
+}
