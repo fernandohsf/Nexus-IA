@@ -1,0 +1,49 @@
+/* Estilo da barra de rolagem vertical */
+QScrollBar:vertical {
+    background: #f0f0f0; /* Cor de fundo */
+    width: 12px; /* Largura */
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #888; /* Cor do "polegar" */
+    min-height: 20px; /* Altura mínima */
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: none; /* Oculta as setas */
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none; /* Oculta o preenchimento entre o polegar e as bordas */
+}
+
+/* Estilo da área de conversa */
+#scroll_area {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo do campo de entrada */
+#entrada_usuario {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo do botão enviar */
+#botao_enviar {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}

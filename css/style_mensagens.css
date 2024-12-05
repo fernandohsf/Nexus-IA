@@ -1,0 +1,14 @@
+#mensagem_usuario{
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#mensagem_nexus{
+    background-color: #f8d7da;
+    color: #842029;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
